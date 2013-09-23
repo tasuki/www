@@ -118,7 +118,6 @@ This is a known bug and will be fixed next week.</div>
 	'<a href="http://golem.tasuki.org/">Golem Monster Ratings</a>' => 'summary ratings for <a href="http://littlegolem.net/">littlegolem</a>',
 	//'<a href="http://fuytayblees.tasuki.org/">Fuytayblees</a>' => 'an online game that no one plays anymore',
 	//'<a href="http://eygml.tasuki.org/">EYGML</a>' => 'homepage of European Youth Go Masters League',
-	'<a href="http://tasuki.org/board-games-and-the-internet/">Board Games &amp; Internet</a>' => 'PartyPoker buys me cake',
 )); ?>
 
 <div></div>
