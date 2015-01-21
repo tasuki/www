@@ -90,7 +90,7 @@ $weights = array(
 
 <div id="wrap">
 
-<div class="right notice">If it appears the colours are changing, please restart your monitor.<br />
+<div class="right notice">If it appears the colours are changing, please restart your display device.<br />
 This is a known bug and will be fixed next week.</div>
 <div class="right">Hi, you've found my home on the interwebs. I am Vít from Czechia, but my Polish and internet friends sometimes call me tasuki.</div>
 
