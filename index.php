@@ -2,16 +2,6 @@
 $background = 'CCC';
 $text = '222';
 
-// the fuck is this shit?
-function item($name, $value) {
-	echo '<div><span class="left">' . $name . '<span class="separator">&ndash;</span></span><span class="right">' . $value . '</span></div>';
-}
-function items(array $items) {
-	foreach ($items as $name => $value)
-		item($name, $value);
-}
-
-
 $font = 'Titillium Web';
 $weights = array(
 	'body'     => '300',
@@ -21,32 +11,47 @@ $weights = array(
 	'welcome'  => '200',
 );
 
-?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+?><!DOCTYPE html>
+<html>
 <head>
 	<title>tasuki.org</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="description" content="Tasuki is diagonal fuseki (opening) in the game of go. It leads to fierce games full of fighting." />
-	<link href="http://fonts.googleapis.com/css?family=<?php echo str_replace(' ', '+', $font); ?>:<?php echo join(',', $weights) ?>" rel="stylesheet" type="text/css" />
+	<meta name="description" content="Tasuki is a diagonal fuseki (opening) in the game of go. It leads to fierce games full of fighting." />
+	<link href="//fonts.googleapis.com/css?family=<?php echo str_replace(' ', '+', $font); ?>:<?php echo join(',', $weights) ?>" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="//yui.yahooapis.com/pure/0.6.0/pure-min.css">
+	<link rel="stylesheet" href="//yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
 	<style type="text/css">
-		* { margin: 0px; padding: 0px; }
-		body { background-color: #<?php echo $background ?>; color: #<?php echo $text ?>; font-family: "<?php echo $font ?>", serif; font-weight: <?php echo $weights['body'] ?>; font-size: 16px; line-height: 24px; }
-		div { clear: both; }
-		#wrap { width: 720px; padding: 5px 20px 50px 20px; margin-left: 10px; }
-		.notice { font-style: italic; margin-bottom: 24px; }
-		.right { float: right; width: 500px; text-align: left; }
-		.left { float: left; width: 220px; text-align: right; }
-		.separator { padding: 0px 8px; }
-		h1, h4 { background-color: #<?php echo $text ?>; color: #<?php echo $background ?>; padding-left: 250px; }
-		h4 { font-size: 18px; font-weight: <?php echo $weights['welcome'] ?>; line-height: 18px; letter-spacing: -1px; padding-top: 50px; margin-bottom: -10px; }
-		h1 { font-size: 45px; font-weight: <?php echo $weights['title'] ?>; line-height: 45px; }
-		h1 .org { font-size: 20px; position: relative; bottom: 10px; left: -12px; }
-		p { clear: both; padding: 5px 0px; }
-		.category { font-weight: <?php echo $weights['category'] ?>; margin-top: 24px; padding: 0px; }
+		/* layout */
+		html, button, input, select, textarea, .pure-g [class *= "pure-u"] { font-family: "<?php echo $font ?>", sans-serif; letter-spacing: 0px; }
+		body { background-color: #<?php echo $background ?>; color: #<?php echo $text ?>; font-weight: <?php echo $weights['body'] ?>; }
+		.header { background-color: #<?php echo $text ?>; color: #<?php echo $background ?>; }
+		.header, .content { padding: 0px 10px; }
+
+		/* common */
 		a:link, a:visited { color: #<?php echo $text ?>; }
 		a:hover { text-decoration: none; }
 		a strong { font-weight: <?php echo $weights['category'] ?>; }
+
+		/* grid */
+		.pure-g { max-width: 750px; margin: auto; }
+		.inner { text-align: right; }
+
+		@media screen and (max-width: 48em) {
+			.pure-g { display: block; }
+			.inner { text-align: left; padding-top: 15px; }
+			.pure-g div { display: inline; }
+		}
+
+		/* header */
+		h1, h4 { margin: 0; }
+		h4 { font-size: 18px; font-weight: <?php echo $weights['welcome'] ?>; line-height: 18px; letter-spacing: -1px; padding-top: 50px; margin-bottom: -10px; }
+		h1 { font-size: 45px; font-weight: <?php echo $weights['title'] ?>; line-height: 45px; }
+		h1 .org { font-size: 20px; position: relative; bottom: 10px; left: -12px; }
+
+		/* content */
+		.notice { font-style: italic; margin-bottom: 24px; }
+		.inner::after { content: "–"; padding: 0px 10px; }
+		.category { font-weight: <?php echo $weights['category'] ?>; margin-top: 24px; padding: 0px; }
 	</style>
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
@@ -63,7 +68,7 @@ $weights = array(
 				light = "#" + light;
 				dark = "#" + dark;
 
-				$("h1, h4").animate({ backgroundColor: dark, color: light }, timeout);
+				$(".header").animate({ backgroundColor: dark, color: light }, timeout);
 				$("body").animate({ backgroundColor: light, color: dark }, timeout);
 				$("a").animate({ color: dark }, timeout, function() {
 					reanimate();
@@ -85,43 +90,96 @@ $weights = array(
 </head>
 <body>
 
-<h4 class="welcome">Welcome to</h4>
-<h1>tasuki.<span class="org">org</span></h1>
+<div class="header">
+	<div class="pure-g">
+		<div class="pure-u-md-1-4"></div>
+		<div class="pure-u-md-3-4">
+			<h4>Welcome to</h4>
+			<h1>tasuki.<span class="org">org</span></h1>
+		</div>
+	</div>
+</div>
 
-<div id="wrap">
+<div class="content">
+	<div class="pure-g notice">
+		<div class="pure-u-md-1-4"></div>
+		<div class="pure-u-md-3-4">
+			If it appears the colours are changing, please restart your display device.<br />
+			This is a known bug and will be fixed next week.
+		</div>
+	</div>
+	<div class="pure-g">
+		<div class="pure-u-md-1-4"></div>
+		<div class="pure-u-md-3-4">
+			Hi, you've found my home on the interwebs. I am Vít from Czechia, but my Polish and internet friends sometimes call me tasuki.
+		</div>
+	</div>
 
-<div class="right notice">If it appears the colours are changing, please restart your display device.<br />
-This is a known bug and will be fixed next week.</div>
-<div class="right">Hi, you've found my home on the interwebs. I am Vít from Czechia, but my Polish and internet friends sometimes call me tasuki.</div>
 
-<div class="right category">I, me, mine</div>
-<?php items(array(
-	'contact' => 'you can contact me at vit.brunner at the ever popular gmail',
-	'<a href="http://gallery.tasuki.org/"><strong>photo gallery</strong></a>' => 'I am an avid amateur photographer',
-	'<a href="http://blog.tasuki.org/"><strong>awesome blog</strong></a>' => 'my personal blog, mostly about various things and stuff',
-	'<a href="http://cv.tasuki.org/">curriculum vitae</a>' => 'sometimes I exchange my skills &amp; time for money',
-)); ?>
+	<div class="pure-g category">
+		<div class="pure-u-md-1-4"></div>
+		<div class="pure-u-md-3-4">I, me, mine</div>
+	</div>
+	<div class="pure-g">
+		<div class="pure-u-md-1-4"><div class="inner">contact</div></div>
+		<div class="pure-u-md-3-4">you can contact me at vit.brunner at the ever popular gmail</div>
+	</div>
+	<div class="pure-g">
+		<div class="pure-u-md-1-4"><div class="inner"><a href="http://gallery.tasuki.org/"><strong>photo gallery</strong></a></div></div>
+		<div class="pure-u-md-3-4">I am an avid amateur photographer</div>
+	</div>
+	<div class="pure-g">
+		<div class="pure-u-md-1-4"><div class="inner"><a href="http://blog.tasuki.org/"><strong>awesome blog</strong></a></div></div>
+		<div class="pure-u-md-3-4">my personal blog, mostly about various things and stuff</div>
+	</div>
+	<div class="pure-g">
+		<div class="pure-u-md-1-4"><div class="inner"><a href="http://cv.tasuki.org/">curriculum vitae</a></div></div>
+		<div class="pure-u-md-3-4">sometimes I exchange my skills &amp; time for money</div>
+	</div>
 
-<div class="right category">Me elsewhere</div>
-<?php items(array(
-	'<a href="http://www.flickr.com/photos/tasuki/">flickr</a>' => 'better photos end up on flickr',
-	'<a href="http://github.com/tasuk">github</a>' => 'code a little in my spare time',
-	'<a href="http://www.facebook.com/vit.brunner">facebook</a>' => 'trying not to waste time there; failing',
-	'<a href="http://tasukisempai.deviantart.com/">deviantart</a>' => 'povray and random gfx',
-	'<a href="http://www.littlegolem.net/jsp/info/player.jsp?plid=5460">little golem</a>' => 'I love abstract board games',
-)); ?>
 
-<div class="right category">Other useful/interesting stuff here</div>
-<?php items(array(
-	'<a href="http://masonry-ordered.tasuki.org/">Masonry Ordered</a>' => 'alternative layout strategy for jQuery Masonry',
-	'<a href="http://tsumego.tasuki.org/">Tsumego Collections</a>' => 'collections of go problems in pdf format',
-	'<a href="http://golem.tasuki.org/">Golem Monster Ratings</a>' => 'summary ratings for <a href="http://littlegolem.net/">littlegolem</a>',
-	//'<a href="http://fuytayblees.tasuki.org/">Fuytayblees</a>' => 'an online game that no one plays anymore',
-	//'<a href="http://eygml.tasuki.org/">EYGML</a>' => 'homepage of European Youth Go Masters League',
-)); ?>
+	<div class="pure-g category">
+		<div class="pure-u-md-1-4"></div>
+		<div class="pure-u-md-3-4">Me elsewhere</div>
+	</div>
+	<div class="pure-g">
+		<div class="pure-u-md-1-4"><div class="inner"><a href="http://www.flickr.com/photos/tasuki/">flickr</a></div></div>
+		<div class="pure-u-md-3-4">better photos end up on flickr</div>
+	</div>
+	<div class="pure-g">
+		<div class="pure-u-md-1-4"><div class="inner"><a href="http://github.com/tasuk">github</a></div></div>
+		<div class="pure-u-md-3-4">code a little in my spare time</div>
+	</div>
+	<div class="pure-g">
+		<div class="pure-u-md-1-4"><div class="inner"><a href="http://www.facebook.com/vit.brunner">facebook</a></div></div>
+		<div class="pure-u-md-3-4">no time waste at all</div>
+	</div>
+	<div class="pure-g">
+		<div class="pure-u-md-1-4"><div class="inner"><a href="http://tasukisempai.deviantart.com/">deviantart</a></div></div>
+		<div class="pure-u-md-3-4">povray and random gfx</div>
+	</div>
+	<div class="pure-g">
+		<div class="pure-u-md-1-4"><div class="inner"><a href="http://www.littlegolem.net/jsp/info/player.jsp?plid=5460">little golem</a></div></div>
+		<div class="pure-u-md-3-4">love abstract board games</div>
+	</div>
 
-<div></div>
 
+	<div class="pure-g category">
+		<div class="pure-u-md-1-4"></div>
+		<div class="pure-u-md-3-4">Other useful/interesting stuff here</div>
+	</div>
+	<div class="pure-g">
+		<div class="pure-u-md-1-4"><div class="inner"><a href="http://masonry-ordered.tasuki.org/">Masonry Ordered</a></div></div>
+		<div class="pure-u-md-3-4">alternative layout strategy for jQuery Masonry</div>
+	</div>
+	<div class="pure-g">
+		<div class="pure-u-md-1-4"><div class="inner"><a href="http://tsumego.tasuki.org/">Tsumego Collections</a></div></div>
+		<div class="pure-u-md-3-4">collections of go problems in pdf format</div>
+	</div>
+	<div class="pure-g">
+		<div class="pure-u-md-1-4"><div class="inner"><a href="http://golem.tasuki.org/">LG Monster Ratings</a></div></div>
+		<div class="pure-u-md-3-4">summary ratings for <a href="http://littlegolem.net/">littlegolem</a></div>
+	</div>
 </div>
 
 </body>
