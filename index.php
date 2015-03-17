@@ -16,6 +16,7 @@ $weights = array(
 <head>
 	<title>tasuki.org</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="description" content="Tasuki is a diagonal fuseki (opening) in the game of go. It leads to fierce games full of fighting." />
 	<link href="//fonts.googleapis.com/css?family=<?php echo str_replace(' ', '+', $font); ?>:<?php echo join(',', $weights) ?>" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="//yui.yahooapis.com/pure/0.6.0/pure-min.css">
