@@ -45,7 +45,8 @@ $weights = array(
 
 		/* header */
 		h1, h4 { margin: 0; }
-		h4 { font-size: 18px; font-weight: <?php echo $weights['welcome'] ?>; line-height: 18px; letter-spacing: -1px; padding-top: 50px; margin-bottom: -10px; }
+		h4 { font-size: 18px; font-weight: <?php echo $weights['welcome'] ?>; line-height: 18px; letter-spacing: -1px; padding-top: 10px; margin-bottom: -10px; }
+		@media screen and (min-width: 768px) { h4 { padding-top: 50px; } }
 		h1 { font-size: 45px; font-weight: <?php echo $weights['title'] ?>; line-height: 45px; }
 		h1 .org { font-size: 20px; position: relative; bottom: 10px; left: -12px; }
 
