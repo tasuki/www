@@ -61,14 +61,12 @@ $weights = array(
 		//<![CDATA[
 		$(document).ready(function() {
 			function reanimate() {
-				var timeout = 10000,  low = 200, high = 255, dark = light = '';
+				var timeout = 10000, low = 200, high = 255, dark = light = "#";
 				for (i = 0; i < 3; i++) {
 					color = Math.floor(Math.random() * (high - low)) + low;
 					light += color.toString(16);
 					dark += ("0" + (color - low).toString(16)).slice(-2);
 				}
-				light = "#" + light;
-				dark = "#" + dark;
 
 				$(".header").animate({ backgroundColor: dark, color: light }, timeout);
 				$("body").animate({ backgroundColor: light, color: dark }, timeout);
