@@ -125,15 +125,15 @@ $weights = array(
 		<div class="pure-u-md-3-4">you can contact me at vit.brunner at the ever popular gmail</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="http://gallery.tasuki.org/"><strong>photo gallery</strong></a></div></div>
+		<div class="pure-u-md-1-4"><div class="inner"><a href="https://gallery.tasuki.org/"><strong>photo gallery</strong></a></div></div>
 		<div class="pure-u-md-3-4">I am an avid amateur photographer</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="http://blog.tasuki.org/"><strong>awesome blog</strong></a></div></div>
+		<div class="pure-u-md-1-4"><div class="inner"><a href="https://blog.tasuki.org/"><strong>awesome blog</strong></a></div></div>
 		<div class="pure-u-md-3-4">my personal blog, mostly about various things and stuff</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="http://cv.tasuki.org/">curriculum vitae</a></div></div>
+		<div class="pure-u-md-1-4"><div class="inner"><a href="https://cv.tasuki.org/">curriculum vitae</a></div></div>
 		<div class="pure-u-md-3-4">sometimes I exchange my skills &amp; time for money</div>
 	</div>
 
@@ -169,15 +169,15 @@ $weights = array(
 		<div class="pure-u-md-3-4">Other useful/interesting stuff here</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="http://masonry-ordered.tasuki.org/">Masonry Ordered</a></div></div>
+		<div class="pure-u-md-1-4"><div class="inner"><a href="https://masonry-ordered.tasuki.org/">Masonry Ordered</a></div></div>
 		<div class="pure-u-md-3-4">alternative layout strategy for jQuery Masonry</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="http://tsumego.tasuki.org/">Tsumego Collections</a></div></div>
+		<div class="pure-u-md-1-4"><div class="inner"><a href="https://tsumego.tasuki.org/">Tsumego Collections</a></div></div>
 		<div class="pure-u-md-3-4">collections of go problems in pdf format</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="http://golem.tasuki.org/">LG Monster Ratings</a></div></div>
+		<div class="pure-u-md-1-4"><div class="inner"><a href="https://golem.tasuki.org/">LG Monster Ratings</a></div></div>
 		<div class="pure-u-md-3-4">summary ratings for <a href="http://littlegolem.net/">littlegolem</a></div>
 	</div>
 </div>
