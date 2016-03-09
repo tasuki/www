@@ -27,6 +27,7 @@ $weights = array(
 		body { background-color: #<?php echo $background ?>; color: #<?php echo $text ?>; font-weight: <?php echo $weights['body'] ?>; }
 		.header { background-color: #<?php echo $text ?>; color: #<?php echo $background ?>; }
 		.header, .content { padding: 0px 10px; }
+		.content { padding-bottom: 30px; }
 
 		/* common */
 		a:link, a:visited { color: #<?php echo $text ?>; }
