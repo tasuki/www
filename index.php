@@ -122,46 +122,20 @@ $weights = array(
 		<div class="pure-u-md-3-4">I, me, mine</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner">contact</div></div>
-		<div class="pure-u-md-3-4">you can contact me at vit.brunner at the ever popular gmail</div>
+		<div class="pure-u-md-1-4"><div class="inner">Contact</div></div>
+		<div class="pure-u-md-3-4">you can contact me at vit.brunner @ the ever popular gmail</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="https://gallery.tasuki.org/">photo gallery</a></div></div>
-		<div class="pure-u-md-3-4">I am an avid amateur photographer</div>
+		<div class="pure-u-md-1-4"><div class="inner"><a href="https://gallery.tasuki.org/">Photo gallery</a></div></div>
+		<div class="pure-u-md-3-4">an avid amateur photographer</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="https://blog.tasuki.org/">awesome blog</a></div></div>
-		<div class="pure-u-md-3-4">my personal blog, mostly about various things and stuff</div>
+		<div class="pure-u-md-1-4"><div class="inner"><a href="https://blog.tasuki.org/">Awesome blog</a></div></div>
+		<div class="pure-u-md-3-4">personal blog, mostly about various things and stuff</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="https://cv.tasuki.org/">curriculum vitae</a></div></div>
+		<div class="pure-u-md-1-4"><div class="inner"><a href="https://cv.tasuki.org/">Curriculum vit&aelig;</a></div></div>
 		<div class="pure-u-md-3-4">sometimes I exchange my skills &amp; time for money</div>
-	</div>
-
-
-	<div class="pure-g category">
-		<div class="pure-u-md-1-4"></div>
-		<div class="pure-u-md-3-4">Me elsewhere</div>
-	</div>
-	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="http://www.flickr.com/photos/tasuki/">flickr</a></div></div>
-		<div class="pure-u-md-3-4">better photos end up on flickr</div>
-	</div>
-	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="http://github.com/tasuk">github</a></div></div>
-		<div class="pure-u-md-3-4">code a little in my spare time</div>
-	</div>
-	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="http://www.facebook.com/vit.brunner">facebook</a></div></div>
-		<div class="pure-u-md-3-4">no time waste at all</div>
-	</div>
-	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="http://tasukisempai.deviantart.com/">deviantart</a></div></div>
-		<div class="pure-u-md-3-4">povray and random gfx</div>
-	</div>
-	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="http://www.littlegolem.net/jsp/info/player.jsp?plid=5460">little golem</a></div></div>
-		<div class="pure-u-md-3-4">love abstract board games</div>
 	</div>
 
 
@@ -175,7 +149,7 @@ $weights = array(
 	</div>
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="inner"><a href="https://golem.tasuki.org/">LG Monster Ratings</a></div></div>
-		<div class="pure-u-md-3-4">summary ratings for <a href="http://littlegolem.net/">littlegolem</a></div>
+		<div class="pure-u-md-3-4">summary ratings for <a href="http://littlegolem.net/">Little Golem</a></div>
 	</div>
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="inner"><a href="https://masonry-ordered.tasuki.org/">Masonry Ordered</a></div></div>
@@ -188,6 +162,32 @@ $weights = array(
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="inner"><a href="https://enchiridion.tasuki.org/">Enchiridion</a></div></div>
 		<div class="pure-u-md-3-4">comparison of different translations of Epictetus' Enchiridion</div>
+	</div>
+
+
+	<div class="pure-g category">
+		<div class="pure-u-md-1-4"></div>
+		<div class="pure-u-md-3-4">Me elsewhere</div>
+	</div>
+	<div class="pure-g">
+		<div class="pure-u-md-1-4"><div class="inner"><a href="http://www.flickr.com/photos/tasuki/">Flickr</a></div></div>
+		<div class="pure-u-md-3-4">my better photos end up there</div>
+	</div>
+	<div class="pure-g">
+		<div class="pure-u-md-1-4"><div class="inner"><a href="http://github.com/tasuk">GitHub</a></div></div>
+		<div class="pure-u-md-3-4">code a little in my spare time</div>
+	</div>
+	<div class="pure-g">
+		<div class="pure-u-md-1-4"><div class="inner"><a href="http://www.facebook.com/vit.brunner">Facebook</a></div></div>
+		<div class="pure-u-md-3-4">no time waste at all</div>
+	</div>
+	<div class="pure-g">
+		<div class="pure-u-md-1-4"><div class="inner"><a href="http://tasukisempai.deviantart.com/">DeviantArt</a></div></div>
+		<div class="pure-u-md-3-4">povray and random gfx</div>
+	</div>
+	<div class="pure-g">
+		<div class="pure-u-md-1-4"><div class="inner"><a href="http://www.littlegolem.net/jsp/info/player.jsp?plid=5460">Little Golem</a></div></div>
+		<div class="pure-u-md-3-4">love abstract board games</div>
 	</div>
 </div>
 
