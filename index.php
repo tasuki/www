@@ -135,7 +135,7 @@ $weights = array(
 	</div>
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="inner"><a href="https://cv.tasuki.org/">Curriculum vit&aelig;</a></div></div>
-		<div class="pure-u-md-3-4">sometimes I exchange my skills &amp; time for money</div>
+		<div class="pure-u-md-3-4">you can have my enthusiasm, skills &amp; time</div>
 	</div>
 
 
