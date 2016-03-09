@@ -126,11 +126,11 @@ $weights = array(
 		<div class="pure-u-md-3-4">you can contact me at vit.brunner at the ever popular gmail</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="https://gallery.tasuki.org/"><strong>photo gallery</strong></a></div></div>
+		<div class="pure-u-md-1-4"><div class="inner"><a href="https://gallery.tasuki.org/">photo gallery</a></div></div>
 		<div class="pure-u-md-3-4">I am an avid amateur photographer</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="https://blog.tasuki.org/"><strong>awesome blog</strong></a></div></div>
+		<div class="pure-u-md-1-4"><div class="inner"><a href="https://blog.tasuki.org/">awesome blog</a></div></div>
 		<div class="pure-u-md-3-4">my personal blog, mostly about various things and stuff</div>
 	</div>
 	<div class="pure-g">
