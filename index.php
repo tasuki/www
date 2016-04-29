@@ -163,6 +163,10 @@ $weights = array(
 		<div class="pure-u-md-1-4"><div class="inner"><a href="https://enchiridion.tasuki.org/">Enchiridion</a></div></div>
 		<div class="pure-u-md-3-4">comparison of different translations of Epictetus' Enchiridion</div>
 	</div>
+	<div class="pure-g">
+		<div class="pure-u-md-1-4"><div class="inner"><a href="https://fonts.tasuki.org/">Fonts</a></div></div>
+		<div class="pure-u-md-3-4">interactive comparison of my favourite Google Web Fonts</div>
+	</div>
 
 
 	<div class="pure-g category">
