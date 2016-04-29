@@ -112,7 +112,7 @@ $weights = array(
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"></div>
 		<div class="pure-u-md-3-4">
-			Hi, you've found my home on the interwebs. I am Vít from Czechia, but my Polish and internet friends sometimes call me tasuki.
+			Hi, you've found my home on the interwebs. I am Vít from the Czech Republic, but my Polish and internet friends sometimes call me tasuki.
 		</div>
 	</div>
 
