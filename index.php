@@ -178,7 +178,7 @@ $weights = array(
 		<div class="pure-u-md-3-4">my better photos end up there</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="http://github.com/tasuk">GitHub</a></div></div>
+		<div class="pure-u-md-1-4"><div class="inner"><a href="http://github.com/tasuki">GitHub</a></div></div>
 		<div class="pure-u-md-3-4">code a little in my spare time</div>
 	</div>
 	<div class="pure-g">
