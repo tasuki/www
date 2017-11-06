@@ -25,12 +25,12 @@ $weights = array(
 		/* layout */
 		html, button, input, select, textarea, .pure-g [class *= "pure-u"] { font-family: "<?php echo $font ?>", sans-serif; letter-spacing: 0px; }
 		body { background-color: #<?php echo $background ?>; color: #<?php echo $text ?>; font-weight: <?php echo $weights['body'] ?>; }
-		.header { background-color: #<?php echo $text ?>; color: #<?php echo $background ?>; }
+		.header { background-color: #<?php echo $text ?>; color: #<?php echo $background ?>; text-shadow: 1px 1px #000; }
 		.header, .content { padding: 0px 10px; }
 		.content { padding-bottom: 30px; }
 
 		/* common */
-		a:link, a:visited { color: #<?php echo $text ?>; }
+		a:link, a:visited { color: #<?php echo $text ?>; text-decoration-skip: ink; }
 		a:hover { text-decoration: none; }
 		a strong { font-weight: <?php echo $weights['category'] ?>; }
 
