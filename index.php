@@ -131,7 +131,7 @@ $weights = array(
 	</div>
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="inner"><a href="https://blog.tasuki.org/">Awesome blog</a></div></div>
-		<div class="pure-u-md-3-4">personal blog, mostly about various things and stuff</div>
+		<div class="pure-u-md-3-4">personal blog, mostly forgotten</div>
 	</div>
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="inner"><a href="https://cv.tasuki.org/">Curriculum vit&aelig;</a></div></div>
@@ -146,10 +146,6 @@ $weights = array(
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="inner"><a href="https://tsumego.tasuki.org/">Tsumego Collections</a></div></div>
 		<div class="pure-u-md-3-4">collections of go problems in pdf format</div>
-	</div>
-	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="https://golem.tasuki.org/">LG Monster Ratings</a></div></div>
-		<div class="pure-u-md-3-4">summary ratings for <a href="http://littlegolem.net/">Little Golem</a></div>
 	</div>
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="inner"><a href="https://masonry-ordered.tasuki.org/">Masonry Ordered</a></div></div>
@@ -174,20 +170,16 @@ $weights = array(
 		<div class="pure-u-md-3-4">Me elsewhere</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="http://www.flickr.com/photos/tasuki/">Flickr</a></div></div>
-		<div class="pure-u-md-3-4">my better photos end up there</div>
-	</div>
-	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="inner"><a href="http://github.com/tasuki">GitHub</a></div></div>
 		<div class="pure-u-md-3-4">code a little in my spare time</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="http://www.facebook.com/vit.brunner">Facebook</a></div></div>
-		<div class="pure-u-md-3-4">no time waste at all</div>
+		<div class="pure-u-md-1-4"><div class="inner"><a href="https://www.linkedin.com/in/vit-brunner/">LinkedIn</a></div></div>
+		<div class="pure-u-md-3-4">deleted my account and ended up regretting it, so here it is again</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="http://tasukisempai.deviantart.com/">DeviantArt</a></div></div>
-		<div class="pure-u-md-3-4">povray and random gfx</div>
+		<div class="pure-u-md-1-4"><div class="inner"><a href="http://www.facebook.com/vit.brunner">Facebook</a></div></div>
+		<div class="pure-u-md-3-4">haven't deleted that one yet, but don't visit often</div>
 	</div>
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="inner"><a href="http://www.littlegolem.net/jsp/info/player.jsp?plid=5460">Little Golem</a></div></div>
