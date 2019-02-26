@@ -152,7 +152,7 @@ $weights = array(
 	</div>
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="inner"><a href="https://ttc.tasuki.org/">Tao Te Ching</a></div></div>
-		<div class="pure-u-md-3-4">comparison of different translations of Tao Te Ching</div>
+		<div class="pure-u-md-3-4">comparison of different translations of the Tao Te Ching</div>
 	</div>
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="inner"><a href="https://enchiridion.tasuki.org/">Enchiridion</a></div></div>
@@ -169,20 +169,24 @@ $weights = array(
 		<div class="pure-u-md-3-4">Me elsewhere</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="http://github.com/tasuki">GitHub</a></div></div>
+		<div class="pure-u-md-1-4"><div class="inner"><a href="https://github.com/tasuki">GitHub</a></div></div>
 		<div class="pure-u-md-3-4">code a little in my spare time</div>
+	</div>
+	<div class="pure-g">
+		<div class="pure-u-md-1-4"><div class="inner"><a href="https://keybase.io/tasuki">Keybase</a></div></div>
+		<div class="pure-u-md-3-4">if you're into all that security and encryption stuff</div>
 	</div>
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="inner"><a href="https://www.linkedin.com/in/vit-brunner/">LinkedIn</a></div></div>
 		<div class="pure-u-md-3-4">deleted my account and ended up regretting it, so here it is again</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="http://www.facebook.com/vit.brunner">Facebook</a></div></div>
-		<div class="pure-u-md-3-4">haven't deleted that one yet, but don't visit often</div>
+		<div class="pure-u-md-1-4"><div class="inner"><a href="https://www.facebook.com/vit.brunner">Facebook</a></div></div>
+		<div class="pure-u-md-3-4">haven't deleted it yet, but don't visit often</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="http://www.littlegolem.net/jsp/info/player.jsp?plid=5460">Little Golem</a></div></div>
-		<div class="pure-u-md-3-4">love abstract board games</div>
+		<div class="pure-u-md-1-4"><div class="inner"><a href="https://www.littlegolem.net/jsp/info/player.jsp?plid=5460">Little Golem</a></div></div>
+		<div class="pure-u-md-3-4">love abstract board games, but somehow stopped playing</div>
 	</div>
 </div>
 
