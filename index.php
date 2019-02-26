@@ -2,13 +2,13 @@
 $background = 'CCC';
 $text = '222';
 
-$font = 'Titillium Web';
+$font = 'Alegreya Sans';
 $weights = array(
-	'body'     => '300',
-	'category' => '600',
+	'body'     => '400',
+	'category' => '900',
 	'title'    => '900',
-	'italic'   => '300italic',
-	'welcome'  => '200',
+	'italic'   => '400italic',
+	'welcome'  => '300',
 );
 
 ?><!DOCTYPE html>
@@ -18,16 +18,15 @@ $weights = array(
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="description" content="Tasuki is a diagonal fuseki (opening) in the game of go. It leads to fierce games full of fighting." />
-	<link href="//fonts.googleapis.com/css?family=<?php echo str_replace(' ', '+', $font); ?>:<?php echo join(',', $weights) ?>" rel="stylesheet" type="text/css" />
+	<link href="//fonts.googleapis.com/css?family=<?php echo str_replace(' ', '+', $font); ?>:<?php echo join(',', array_unique($weights)) ?>&amp;subset=latin-ext" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
 	<style type="text/css">
 		/* layout */
-		html, button, input, select, textarea, .pure-g [class *= "pure-u"] { font-family: "<?php echo $font ?>", sans-serif; letter-spacing: 0px; }
-		body { background-color: #<?php echo $background ?>; color: #<?php echo $text ?>; font-weight: <?php echo $weights['body'] ?>; }
-		.header { background-color: #<?php echo $text ?>; color: #<?php echo $background ?>; text-shadow: 1px 1px #000; }
-		.header, .content { padding: 0px 10px; }
-		.content { padding-bottom: 30px; }
+		html, button, input, select, textarea, .pure-g [class *= "pure-u"] { font-family: "<?php echo $font ?>", sans-serif; letter-spacing: 0; }
+		body { background-color: #<?php echo $background ?>; color: #<?php echo $text ?>; font-weight: <?php echo $weights['body'] ?>; font-size: 1.2em; line-height: 1.3; }
+		.header { background-color: #<?php echo $text ?>; color: #<?php echo $background ?>; text-shadow: .05em .05em #000; padding: 0 1em; }
+		.content { padding: .5em; }
 
 		/* common */
 		a:link, a:visited { color: #<?php echo $text ?>; text-decoration-skip: ink; }
@@ -35,26 +34,26 @@ $weights = array(
 		a strong { font-weight: <?php echo $weights['category'] ?>; }
 
 		/* grid */
-		.pure-g { max-width: 750px; margin: auto; }
+		.pure-g { max-width: 40em; margin: auto; }
 		.inner { text-align: right; }
 
-		@media screen and (max-width: 48em) {
+		@media screen and (max-width: 55em) {
 			.pure-g { display: block; }
-			.inner { text-align: left; padding-top: 15px; }
+			.inner { text-align: left; padding-top: 1em; }
 			.pure-g div { display: inline; }
 		}
 
 		/* header */
 		h1, h4 { margin: 0; }
-		h4 { font-size: 18px; font-weight: <?php echo $weights['welcome'] ?>; line-height: 18px; letter-spacing: -1px; padding-top: 10px; margin-bottom: -10px; }
-		@media screen and (min-width: 768px) { h4 { padding-top: 50px; } }
-		h1 { font-size: 45px; font-weight: <?php echo $weights['title'] ?>; line-height: 45px; }
-		h1 .org { font-size: 20px; position: relative; bottom: 10px; left: -12px; }
+		h4 { font-weight: <?php echo $weights['welcome'] ?>; letter-spacing: -0.03em; padding-top: 2em; position: relative; left: .9em; top: .5em; }
+		@media screen and (max-width: 55em) { h4 { padding-top: .5em; } }
+		h1 { font-size: 3em; font-weight: <?php echo $weights['title'] ?>; line-height: .7em; }
+		h1 .org { font-size: .45em; position: relative; bottom: .5em; left: -.5em; }
 
 		/* content */
-		.notice { font-style: italic; margin-bottom: 24px; }
-		.inner::after { content: "–"; padding: 0px 10px; }
-		.category { font-weight: <?php echo $weights['category'] ?>; margin-top: 24px; padding: 0px; }
+		.notice { font-style: italic; margin-bottom: 1em; }
+		.inner::after { content: "–"; padding: 0 .5em; }
+		.category { font-weight: <?php echo $weights['category'] ?>; margin-top: 1em; padding: 0px; }
 	</style>
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
