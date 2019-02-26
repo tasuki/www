@@ -64,14 +64,14 @@ $weights = array(
 			function reanimate() {
 				var timeout = 10000, low = 200, high = 255, dark = light = "#";
 				for (i = 0; i < 3; i++) {
-					color = Math.floor(Math.random() * (high - low)) + low;
-					light += color.toString(16);
-					dark += ("0" + (color - low).toString(16)).slice(-2);
+					color = Math.floor(Math.random() * (high - low));
+					dark += color.toString(16).padStart(2, "0");
+					light += (color + low).toString(16);
 				}
 
+				$("a").animate({ color: dark }, timeout);
 				$(".header").animate({ backgroundColor: dark, color: light }, timeout);
-				$("body").animate({ backgroundColor: light, color: dark }, timeout);
-				$("a").animate({ color: dark }, timeout, function() {
+				$("body").animate({ backgroundColor: light, color: dark }, timeout, function() {
 					reanimate();
 				});
 			}
