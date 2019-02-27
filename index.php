@@ -23,7 +23,7 @@ $weights = array(
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
 	<style type="text/css">
 		/* layout */
-		html, button, input, select, textarea, .pure-g [class *= "pure-u"] { font-family: "<?php echo $font ?>", sans-serif; }
+		html, button, input, select, textarea, .pure-g [class *= "pure-u"] { font-family: "<?php echo $font ?>", sans-serif; letter-spacing: 0; }
 		body { background-color: #<?php echo $background ?>; color: #<?php echo $text ?>; font-weight: <?php echo $weights['body'] ?>; font-size: 1.2em; line-height: 1.3; }
 		.header { background-color: #<?php echo $text ?>; color: #<?php echo $background ?>; text-shadow: .05em .05em #000; padding: 0 .5em; }
 		.content { padding: .5em; }
