@@ -35,11 +35,11 @@ $weights = array(
 
 		/* grid */
 		.pure-g { max-width: 40em; margin: auto; }
-		.inner { text-align: right; }
+		.item { text-align: right; }
 
 		@media screen and (max-width: 55em) {
 			.pure-g { display: block; }
-			.inner { text-align: left; padding-top: 1em; }
+			.item { text-align: left; }
 			.pure-g div { display: inline; }
 		}
 
@@ -52,7 +52,7 @@ $weights = array(
 
 		/* content */
 		.notice { font-style: italic; margin-bottom: 1em; }
-		.inner::after { content: "–"; padding: 0 .5em; }
+		.item::after { content: "–"; padding: 0 .5em; }
 		.category { font-weight: <?php echo $weights['category'] ?>; margin-top: 1em; padding: 0px; }
 	</style>
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
@@ -121,19 +121,19 @@ $weights = array(
 		<div class="pure-u-md-3-4">I, me, mine</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner">Contact</div></div>
+		<div class="pure-u-md-1-4"><div class="item">Contact</div></div>
 		<div class="pure-u-md-3-4">you can contact me at vit.brunner @ the ever popular gmail</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="https://gallery.tasuki.org/">Photo gallery</a></div></div>
+		<div class="pure-u-md-1-4"><div class="item"><a href="https://gallery.tasuki.org/">Photo gallery</a></div></div>
 		<div class="pure-u-md-3-4">an avid amateur photographer</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="https://blog.tasuki.org/">Awesome blog</a></div></div>
+		<div class="pure-u-md-1-4"><div class="item"><a href="https://blog.tasuki.org/">Awesome blog</a></div></div>
 		<div class="pure-u-md-3-4">personal blog, mostly forgotten</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="https://cv.tasuki.org/">Curriculum vit&aelig;</a></div></div>
+		<div class="pure-u-md-1-4"><div class="item"><a href="https://cv.tasuki.org/">Curriculum vit&aelig;</a></div></div>
 		<div class="pure-u-md-3-4">you can have my enthusiasm, skills &amp; time</div>
 	</div>
 
@@ -143,23 +143,23 @@ $weights = array(
 		<div class="pure-u-md-3-4">Useful/interesting stuff on tasuki.org</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="https://tsumego.tasuki.org/">Tsumego Collections</a></div></div>
+		<div class="pure-u-md-1-4"><div class="item"><a href="https://tsumego.tasuki.org/">Tsumego Collections</a></div></div>
 		<div class="pure-u-md-3-4">collections of go problems in pdf format</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="https://masonry-ordered.tasuki.org/">Masonry Ordered</a></div></div>
+		<div class="pure-u-md-1-4"><div class="item"><a href="https://masonry-ordered.tasuki.org/">Masonry Ordered</a></div></div>
 		<div class="pure-u-md-3-4">alternative layout strategy for jQuery Masonry</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="https://ttc.tasuki.org/">Tao Te Ching</a></div></div>
+		<div class="pure-u-md-1-4"><div class="item"><a href="https://ttc.tasuki.org/">Tao Te Ching</a></div></div>
 		<div class="pure-u-md-3-4">comparison of different translations of the Tao Te Ching</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="https://enchiridion.tasuki.org/">Enchiridion</a></div></div>
+		<div class="pure-u-md-1-4"><div class="item"><a href="https://enchiridion.tasuki.org/">Enchiridion</a></div></div>
 		<div class="pure-u-md-3-4">comparison of different translations of Epictetus' Enchiridion</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="https://fonts.tasuki.org/">Fonts</a></div></div>
+		<div class="pure-u-md-1-4"><div class="item"><a href="https://fonts.tasuki.org/">Fonts</a></div></div>
 		<div class="pure-u-md-3-4">interactive comparison of my favourite Google Web Fonts</div>
 	</div>
 
@@ -169,23 +169,23 @@ $weights = array(
 		<div class="pure-u-md-3-4">Me elsewhere</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="https://github.com/tasuki">GitHub</a></div></div>
+		<div class="pure-u-md-1-4"><div class="item"><a href="https://github.com/tasuki">GitHub</a></div></div>
 		<div class="pure-u-md-3-4">code a little in my spare time</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="https://keybase.io/tasuki">Keybase</a></div></div>
+		<div class="pure-u-md-1-4"><div class="item"><a href="https://keybase.io/tasuki">Keybase</a></div></div>
 		<div class="pure-u-md-3-4">if you're into all that security and encryption stuff</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="https://www.linkedin.com/in/vit-brunner/">LinkedIn</a></div></div>
+		<div class="pure-u-md-1-4"><div class="item"><a href="https://www.linkedin.com/in/vit-brunner/">LinkedIn</a></div></div>
 		<div class="pure-u-md-3-4">deleted my account and ended up regretting it, so here it is again</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="https://www.facebook.com/vit.brunner">Facebook</a></div></div>
+		<div class="pure-u-md-1-4"><div class="item"><a href="https://www.facebook.com/vit.brunner">Facebook</a></div></div>
 		<div class="pure-u-md-3-4">haven't deleted it yet, but don't visit often</div>
 	</div>
 	<div class="pure-g">
-		<div class="pure-u-md-1-4"><div class="inner"><a href="https://www.littlegolem.net/jsp/info/player.jsp?plid=5460">Little Golem</a></div></div>
+		<div class="pure-u-md-1-4"><div class="item"><a href="https://www.littlegolem.net/jsp/info/player.jsp?plid=5460">Little Golem</a></div></div>
 		<div class="pure-u-md-3-4">love abstract board games, but somehow stopped playing</div>
 	</div>
 </div>
