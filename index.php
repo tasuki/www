@@ -57,36 +57,6 @@ $weights = array(
 	</style>
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
-	<script type="text/javascript">
-		//<![CDATA[
-		$(document).ready(function() {
-			function reanimate() {
-				var timeout = 10000, low = 200, high = 255, dark = light = "#";
-				for (i = 0; i < 3; i++) {
-					color = Math.floor(Math.random() * (high - low));
-					dark += color.toString(16).padStart(2, "0");
-					light += (color + low).toString(16);
-				}
-
-				$("a").animate({ color: dark }, timeout);
-				$(".header").animate({ backgroundColor: dark, color: light }, timeout);
-				$("body").animate({ backgroundColor: light, color: dark }, timeout, function() {
-					reanimate();
-				});
-			}
-			reanimate();
-		});
-
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-2554217-7']);
-		_gaq.push(['_trackPageview']);
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-		//]]>
-	</script>
 </head>
 <body>
 
