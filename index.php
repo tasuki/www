@@ -55,8 +55,8 @@ $weights = array(
 		.item::after { content: "–"; padding: 0 .5em; }
 		.category { font-weight: <?php echo $weights['category'] ?>; margin-top: 1em; padding: 0px; }
 	</style>
-	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
 </head>
 <body>
 
