@@ -102,7 +102,7 @@ $weights = array(
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"></div>
 		<div class="pure-u-md-3-4">
-			Hi, I'm Vít from the Czech Republic, my Polish go-playing friends sometimes call me tasuki.
+			Hi, I'm Vít from the Czech Republic, my go-playing friends sometimes call me tasuki.
 			I came up with this nickname when registering for the KGS go server in 2001. Seems to have stuck.
 		</div>
 	</div>
