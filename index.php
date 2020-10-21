@@ -54,27 +54,34 @@ $weights = array(
 		.notice { font-style: italic; margin-bottom: 1em; }
 		.item::after { content: "–"; padding: 0 .5em; }
 		.category { font-weight: <?php echo $weights['category'] ?>; margin-top: 1em; padding: 0px; }
+
+		/* transitions */
+		body, .header, a:link { transition: all 5s linear; }
 	</style>
 	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
 	<script type="text/javascript">
 	//<![CDATA[
 	$(document).ready(function() {
+		function colorHex(color) {
+			return color.toString(16).padStart(2, "0");
+		}
 		function reanimate() {
-			var timeout = 10000, low = 200, high = 255, dark = light = "#";
+			low = 200, high = 255, dark = light = "#";
 			for (i = 0; i < 3; i++) {
 				color = Math.floor(Math.random() * (high - low));
-				dark += color.toString(16).padStart(2, "0");
-				light += (color + low).toString(16);
+				dark += colorHex(color);
+				light += colorHex(color + low);
 			}
 
-			$("a").animate({ color: dark }, timeout);
-			$(".header").animate({ backgroundColor: dark, color: light }, timeout);
-			$("body").animate({ backgroundColor: light, color: dark }, timeout, function() {
-				reanimate();
-			});
+			$(".header").css("backgroundColor", dark);
+			$("body").css("backgroundColor", light);
+			$(".header").css("color", light);
+			$("body").css("color", dark);
+			$("a").css("color", dark);
 		}
+
 		reanimate();
+		setInterval(reanimate, 5000);
 	});
 	//]]>
 	</script>
