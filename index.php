@@ -109,7 +109,7 @@ $weights = array(
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"></div>
 		<div class="pure-u-md-3-4">
-			Hi, I'm Vít from the Czech Republic, my go-playing friends sometimes call me tasuki.
+			Hi, I&rsquo;m Vít from the Czech Republic, my go-playing friends sometimes call me tasuki.
 			I came up with this nickname when registering for the KGS go server in 2001. Seems to have stuck.
 		</div>
 	</div>
@@ -155,7 +155,7 @@ $weights = array(
 	</div>
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="item"><a href="https://enchiridion.tasuki.org/">Enchiridion</a></div></div>
-		<div class="pure-u-md-3-4">comparison of different translations of Epictetus' Enchiridion</div>
+		<div class="pure-u-md-3-4">comparison of different translations of Epictetus&rsquo; Enchiridion</div>
 	</div>
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="item"><a href="https://fonts.tasuki.org/">Fonts</a></div></div>
@@ -173,7 +173,7 @@ $weights = array(
 	</div>
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="item"><a href="https://keybase.io/tasuki">Keybase</a></div></div>
-		<div class="pure-u-md-3-4">if you're into all that security and encryption stuff</div>
+		<div class="pure-u-md-3-4">if you&rsquo;re into all that security and encryption stuff</div>
 	</div>
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="item"><a href="https://www.linkedin.com/in/vit-brunner/">LinkedIn</a></div></div>
@@ -181,7 +181,7 @@ $weights = array(
 	</div>
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="item"><a href="https://www.facebook.com/vit.brunner">Facebook</a></div></div>
-		<div class="pure-u-md-3-4">haven't deleted it yet, but don't visit often</div>
+		<div class="pure-u-md-3-4">haven&rsquo;t deleted it yet, but don&rsquo;t visit often</div>
 	</div>
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="item"><a href="https://www.littlegolem.net/jsp/info/player.jsp?plid=5460">Little Golem</a></div></div>
