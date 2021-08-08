@@ -12,15 +12,15 @@ $weights = array(
 );
 
 ?><!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>tasuki.org</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="description" content="Tasuki is a diagonal fuseki (opening) in the game of go. It leads to fierce games full of fighting." />
-	<link async rel="stylesheet" href="//fonts.googleapis.com/css?family=<?php echo str_replace(' ', '+', $font); ?>:<?php echo join(',', array_unique($weights)) ?>&amp;subset=latin-ext&amp;display=swap" type="text/css" />
-	<link defer rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
-	<link defer rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=<?php echo str_replace(' ', '+', $font); ?>:<?php echo join(',', array_unique($weights)) ?>&amp;subset=latin-ext&amp;display=swap" type="text/css" />
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
 	<style type="text/css">
 		/* layout */
 		html, button, input, select, textarea, .pure-g [class *= "pure-u"] { font-family: "<?php echo $font ?>", sans-serif; letter-spacing: 0; }
@@ -59,32 +59,7 @@ $weights = array(
 		body, .header, a:link { transition: all 5s linear; }
 	</style>
 	<script defer type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-	<script type="text/javascript">
-	//<![CDATA[
-	$(document).ready(function() {
-		function colorHex(color) {
-			return color.toString(16).padStart(2, "0");
-		}
-		function reanimate() {
-			low = 200, high = 255, dark = light = "#";
-			for (i = 0; i < 3; i++) {
-				color = Math.floor(Math.random() * (high - low));
-				dark += colorHex(color);
-				light += colorHex(color + low);
-			}
-
-			$(".header").css("backgroundColor", dark);
-			$("body").css("backgroundColor", light);
-			$(".header").css("color", light);
-			$("body").css("color", dark);
-			$("a").css("color", dark);
-		}
-
-		reanimate();
-		setInterval(reanimate, 5000);
-	});
-	//]]>
-	</script>
+	<script defer type="text/javascript" src="/script.js"></script>
 </head>
 <body>
 
