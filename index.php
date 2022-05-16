@@ -99,16 +99,20 @@ $weights = array(
 		<div class="pure-u-md-3-4">you can contact me at vit.brunner @ the ever popular gmail</div>
 	</div>
 	<div class="pure-g">
+		<div class="pure-u-md-1-4"><div class="item"><a href="https://wiki.tasuki.org/">Personal wiki</a></div></div>
+		<div class="pure-u-md-3-4">recipes and things</div>
+	</div>
+	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="item"><a href="https://gallery.tasuki.org/">Photo gallery</a></div></div>
-		<div class="pure-u-md-3-4">an avid amateur photographer</div>
+		<div class="pure-u-md-3-4">used to take photos till like 2019</div>
 	</div>
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="item"><a href="https://blog.tasuki.org/">Awesome blog</a></div></div>
-		<div class="pure-u-md-3-4">personal blog, mostly forgotten</div>
+		<div class="pure-u-md-3-4">personal blog, not quite forgotten</div>
 	</div>
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="item"><a href="https://cv.tasuki.org/">Curriculum vit&aelig;</a></div></div>
-		<div class="pure-u-md-3-4">you can have my enthusiasm, skills &amp; time</div>
+		<div class="pure-u-md-3-4">you probably can&rsquo;t have my enthusiasm, skills &amp; time right now</div>
 	</div>
 
 
@@ -156,11 +160,19 @@ $weights = array(
 	</div>
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="item"><a href="https://www.facebook.com/vit.brunner">Facebook</a></div></div>
-		<div class="pure-u-md-3-4">haven&rsquo;t deleted it yet, but don&rsquo;t visit often</div>
+		<div class="pure-u-md-3-4">haven&rsquo;t deleted it, but don&rsquo;t visit often</div>
+	</div>
+	<div class="pure-g">
+		<div class="pure-u-md-1-4"><div class="item"><a href="http://tasuki/">Handshake</a></div></div>
+		<div class="pure-u-md-3-4">TLDs on a blockchain, need a <a href="https://handshake.org/">Handshake</a>-aware DNS resolver to see this</div>
 	</div>
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"><div class="item"><a href="https://www.littlegolem.net/jsp/info/player.jsp?plid=5460">Little Golem</a></div></div>
-		<div class="pure-u-md-3-4">love abstract board games, but somehow stopped playing</div>
+		<div class="pure-u-md-3-4">love abstract board games</div>
+	</div>
+	<div class="pure-g">
+		<div class="pure-u-md-1-4"><div class="item"><a href="https://boardgamearena.com/player?id=83846343">Board Game Arena</a></div></div>
+		<div class="pure-u-md-3-4">also sometimes enjoy more random games and am easy to gamify</div>
 	</div>
 </div>
 
