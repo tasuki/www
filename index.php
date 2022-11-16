@@ -18,9 +18,9 @@ $weights = array(
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="description" content="Tasuki is a diagonal fuseki (opening) in the game of go. It leads to fierce games full of fighting." />
-	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=<?php echo str_replace(' ', '+', $font); ?>:<?php echo join(',', array_unique($weights)) ?>&amp;subset=latin-ext&amp;display=swap" type="text/css" />
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+	<link rel="stylesheet" href="/fonts.css">
+	<link rel="stylesheet" href="/vendor/pure-min.css">
+	<link rel="stylesheet" href="/vendor/pure-grids-responsive-min.css">
 	<style type="text/css">
 		/* layout */
 		html, button, input, select, textarea, .pure-g [class *= "pure-u"] { font-family: "<?php echo $font ?>", sans-serif; letter-spacing: 0; }
@@ -58,7 +58,7 @@ $weights = array(
 		/* transitions */
 		body, .header, a:link { transition: all 5s linear; }
 	</style>
-	<script defer type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script defer type="text/javascript" src="/vendor/jquery.min.js"></script>
 	<script defer type="text/javascript" src="/script.js"></script>
 </head>
 <body>

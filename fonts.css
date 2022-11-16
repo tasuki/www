@@ -1,0 +1,17 @@
+/* Alegreya Sans */
+@font-face {
+  font-family: 'Alegreya Sans'; font-style: normal; font-weight: 300; font-display: swap;
+  src: url('/vendor/fonts/alegreya-sans-v21-latin-ext_latin-300.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Alegreya Sans'; font-style: normal; font-weight: 400; font-display: swap;
+  src: url('/vendor/fonts/alegreya-sans-v21-latin-ext_latin-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Alegreya Sans'; font-style: italic; font-weight: 400; font-display: swap;
+  src: url('/vendor/fonts/alegreya-sans-v21-latin-ext_latin-400i.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Alegreya Sans'; font-style: normal; font-weight: 900; font-display: swap;
+  src: url('/vendor/fonts/alegreya-sans-v21-latin-ext_latin-900.woff2') format('woff2');
+}
