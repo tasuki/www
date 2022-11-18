@@ -50,4 +50,4 @@ h1 .org { font-size: .45em; position: relative; bottom: .5em; left: -.5em; }
 .category { font-weight: 900; margin-top: 1em; padding: 0px; }
 
 /* transitions */
-body, #header { transition: all 1s linear; }
+body, #header { transition: all 5s linear; }
