@@ -1,69 +1,18 @@
-<?php
-$background = 'CCC';
-$text = '222';
-
-$font = 'Alegreya Sans';
-$weights = array(
-	'body'     => '400',
-	'category' => '900',
-	'title'    => '900',
-	'italic'   => '400italic',
-	'welcome'  => '300',
-);
-
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>tasuki.org</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="description" content="Tasuki is a diagonal fuseki (opening) in the game of go. It leads to fierce games full of fighting." />
-	<link rel="stylesheet" href="/fonts.css">
 	<link rel="stylesheet" href="/vendor/pure-min.css">
 	<link rel="stylesheet" href="/vendor/pure-grids-responsive-min.css">
-	<style type="text/css">
-		/* layout */
-		html, button, input, select, textarea, .pure-g [class *= "pure-u"] { font-family: "<?php echo $font ?>", sans-serif; letter-spacing: 0; }
-		body { background-color: #<?php echo $background ?>; color: #<?php echo $text ?>; font-weight: <?php echo $weights['body'] ?>; font-size: 1.2em; line-height: 1.3; }
-		.header { background-color: #<?php echo $text ?>; color: #<?php echo $background ?>; text-shadow: .05em .05em #000; padding: 0 .5em; }
-		.content { padding: .5em; }
-
-		/* common */
-		a:link, a:visited { color: #<?php echo $text ?>; }
-		a:hover { text-decoration: none; }
-		a strong { font-weight: <?php echo $weights['category'] ?>; }
-
-		/* grid */
-		.pure-g { max-width: 40em; margin: auto; }
-		.item { text-align: right; }
-
-		@media screen and (max-width: 55em) {
-			.pure-g { display: block; }
-			.item { text-align: left; }
-			.pure-g div { display: inline; }
-		}
-
-		/* header */
-		h1, h4 { margin: 0; }
-		h4 { font-weight: <?php echo $weights['welcome'] ?>; letter-spacing: -0.03em; padding-top: 2em; position: relative; left: .9em; top: .5em; }
-		@media screen and (max-width: 55em) { h4 { padding-top: .5em; } }
-		h1 { font-size: 3em; font-weight: <?php echo $weights['title'] ?>; line-height: .7em; }
-		h1 .org { font-size: .45em; position: relative; bottom: .5em; left: -.5em; }
-
-		/* content */
-		.notice { font-style: italic; margin-bottom: 1em; }
-		.item::after { content: "–"; padding: 0 .5em; }
-		.category { font-weight: <?php echo $weights['category'] ?>; margin-top: 1em; padding: 0px; }
-
-		/* transitions */
-		body, .header, a:link { transition: all 5s linear; }
-	</style>
-	<script defer type="text/javascript" src="/vendor/jquery.min.js"></script>
+	<link rel="stylesheet" href="/style.css">
 	<script defer type="text/javascript" src="/script.js"></script>
 </head>
 <body>
 
-<div class="header">
+<div id="header">
 	<div class="pure-g">
 		<div class="pure-u-md-1-4"></div>
 		<div class="pure-u-md-3-4">
@@ -73,7 +22,7 @@ $weights = array(
 	</div>
 </div>
 
-<div class="content">
+<div id="content">
 	<div class="pure-g notice">
 		<div class="pure-u-md-1-4"></div>
 		<div class="pure-u-md-3-4">
