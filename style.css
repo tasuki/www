@@ -18,12 +18,30 @@
 
 /* layout */
 html, button, input, select, textarea, .pure-g [class *= "pure-u"] { font-family: "Alegreya Sans", sans-serif; letter-spacing: 0; }
-body { background-color: #CCC; color: #222; font-weight: 400; font-size: 1.2em; line-height: 1.3; }
-#header { background-color: #222; color: #CCC; text-shadow: .05em .05em #000; padding: 0 .5em; }
+body { color: #FFFE; font-weight: 400; font-size: 1.2em; line-height: 1.3; text-shadow: .05em .05em #0003; }
+#header { padding: 0 .5em; }
+#header h1 { text-shadow: .05em .05em #0003; }
 #content { padding: .5em; }
 
+#bg {
+	animation: animateBg 15s linear infinite;
+	background: linear-gradient(-45deg,
+		#b58900, #cb4b16, #d33682, #6c71c4, #268bd2, #2aa198, #859900,
+		#b58900, #cb4b16, #d33682, #6c71c4, #268bd2, #2aa198, #859900,
+		#b58900);
+	background-size: 5000px 5000px;
+	height: 100vh;
+	position: fixed;
+	width: 100%;
+	z-index: -10;
+}
+@keyframes animateBg {
+	0% { background-position: 0px 0px; }
+	100% { background-position: -5000px -5000px; }
+}
+
 /* common */
-a:link, a:visited { color: #222; }
+a:link, a:visited { color: #FFFE; }
 a:hover { text-decoration: none; }
 a strong { font-weight: 900; }
 
@@ -39,15 +57,13 @@ a strong { font-weight: 900; }
 
 /* header */
 h1, h4 { margin: 0; }
-h4 { font-weight: 300; letter-spacing: -0.03em; padding-top: 2em; position: relative; left: .9em; top: .5em; }
+h4 { font-weight: 300; letter-spacing: -0.03em; padding-top: 1em; }
+h4 #welcome { position: relative; left: 1em; top: .5em; }
 @media screen and (max-width: 55em) { h4 { padding-top: .5em; } }
 h1 { font-size: 3em; font-weight: 900; line-height: .7em; }
-h1 .org { font-size: .45em; position: relative; bottom: .5em; left: -.5em; }
+h1 #org { font-size: .45em; position: relative; bottom: .5em; left: -.5em; z-index: -1; }
 
 /* content */
 .notice { font-style: italic; margin-bottom: 1em; }
 .item::after { content: "–"; padding: 0 .5em; }
-.category { font-weight: 900; margin-top: 1em; padding: 0px; }
-
-/* transitions */
-body, #header { transition: all 5s linear; }
+.category { font-weight: 900; margin-top: 1em; padding: 0px; text-shadow: .1em .1em #0003; }
