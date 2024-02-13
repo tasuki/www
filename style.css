@@ -26,9 +26,10 @@ body { color: #FFFE; font-weight: 400; font-size: 1.2em; line-height: 1.3; text-
 #bg {
 	animation: animateBg 15s linear infinite;
 	background: linear-gradient(-45deg,
-		#b58900, #cb4b16, #d33682, #6c71c4, #268bd2, #2aa198, #859900,
-		#b58900, #cb4b16, #d33682, #6c71c4, #268bd2, #2aa198, #859900,
-		#b58900);
+		#A7770C, #BC6826, #CC583F, #D8445E, #DE2F87, #D925B5, #C936DB, #B050EF, #9067F3, #6A7BE9, #4289D0, #2391B1, #159594, #0B9974, #2A994C, #61921D, #8A860D,
+		#A7770C, #BC6826, #CC583F, #D8445E, #DE2F87, #D925B5, #C936DB, #B050EF, #9067F3, #6A7BE9, #4289D0, #2391B1, #159594, #0B9974, #2A994C, #61921D, #8A860D,
+		#A7770C
+		);
 	background-size: 5000px 5000px;
 	height: 100vh;
 	position: fixed;
