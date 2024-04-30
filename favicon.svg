@@ -2,24 +2,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
 <defs>
 <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-	<stop offset="0%" stop-color="#A7770C" />
-	<stop offset="6.25%" stop-color="#BC6826" />
-	<stop offset="12.5%" stop-color="#CC583F" />
-	<stop offset="18.75%" stop-color="#D8445E" />
-	<stop offset="25%" stop-color="#DE2F87" />
-	<stop offset="31.25%" stop-color="#D925B5" />
-	<stop offset="37.5%" stop-color="#C936DB" />
-	<stop offset="43.75%" stop-color="#B050EF" />
-	<stop offset="50%" stop-color="#9067F3" />
-	<stop offset="56.25%" stop-color="#6A7BE9" />
-	<stop offset="62.5%" stop-color="#4289D0" />
-	<stop offset="68.75%" stop-color="#2391B1" />
-	<stop offset="75%" stop-color="#159594" />
-	<stop offset="81.25%" stop-color="#0B9974" />
-	<stop offset="87.5%" stop-color="#2A994C" />
-	<stop offset="93.75%" stop-color="#61921D" />
-	<stop offset="100%" stop-color="#8A860D" />
+	<stop offset="  0%" stop-color="oklch(65% 0.11 350)" />
+	<stop offset=" 10%" stop-color="oklch(65% 0.11 315)" />
+	<stop offset=" 20%" stop-color="oklch(65% 0.11 280)" />
+	<stop offset=" 30%" stop-color="oklch(65% 0.11 245)" />
+	<stop offset=" 40%" stop-color="oklch(65% 0.11 210)" />
+	<stop offset=" 50%" stop-color="oklch(65% 0.11 175)" />
+	<stop offset=" 60%" stop-color="oklch(65% 0.11 140)" />
+	<stop offset=" 70%" stop-color="oklch(65% 0.11 105)" />
+	<stop offset=" 80%" stop-color="oklch(65% 0.11  70)" />
+	<stop offset=" 90%" stop-color="oklch(65% 0.11  35)" />
+	<stop offset="100%" stop-color="oklch(65% 0.11   0)" />
 </linearGradient>
+
 </defs>
 <path d="
 	M  0  8

@@ -1,3 +1,8 @@
+:root {
+	--main: #FFFE;
+	--shadow: #0003;
+}
+
 /* fonts */
 @font-face {
   font-family: 'Alegreya Sans'; font-style: normal; font-weight: 300; font-display: swap;
@@ -18,18 +23,39 @@
 
 /* layout */
 html, button, input, select, textarea, .pure-g [class *= "pure-u"] { font-family: "Alegreya Sans", sans-serif; letter-spacing: 0; }
-body { color: #FFFE; font-weight: 400; font-size: 1.2em; line-height: 1.3; text-shadow: .05em .05em #0003; }
+body { color: var(--main); font-weight: 400; font-size: 1.2em; line-height: 1.3; text-shadow: .05em .05em var(--shadow); }
 #header { padding: 0 .5em; }
-#header h1 { text-shadow: .05em .05em #0003; }
+#header h1 { text-shadow: .05em .05em var(--shadow); }
 #content { padding: .5em; }
 
 #bg {
 	animation: animateBg 15s linear infinite;
 	background: linear-gradient(-45deg,
-		#A7770C, #BC6826, #CC583F, #D8445E, #DE2F87, #D925B5, #C936DB, #B050EF, #9067F3, #6A7BE9, #4289D0, #2391B1, #159594, #0B9974, #2A994C, #61921D, #8A860D,
-		#A7770C, #BC6826, #CC583F, #D8445E, #DE2F87, #D925B5, #C936DB, #B050EF, #9067F3, #6A7BE9, #4289D0, #2391B1, #159594, #0B9974, #2A994C, #61921D, #8A860D,
-		#A7770C
-		);
+		oklch(65% 0.11   0),
+		oklch(65% 0.11  30),
+		oklch(65% 0.11  60),
+		oklch(65% 0.11  90),
+		oklch(65% 0.11 120),
+		oklch(65% 0.11 150),
+		oklch(65% 0.11 180),
+		oklch(65% 0.11 210),
+		oklch(65% 0.11 240),
+		oklch(65% 0.11 270),
+		oklch(65% 0.11 300),
+		oklch(65% 0.11 330),
+		oklch(65% 0.11   0),
+		oklch(65% 0.11  30),
+		oklch(65% 0.11  60),
+		oklch(65% 0.11  90),
+		oklch(65% 0.11 120),
+		oklch(65% 0.11 150),
+		oklch(65% 0.11 180),
+		oklch(65% 0.11 210),
+		oklch(65% 0.11 240),
+		oklch(65% 0.11 270),
+		oklch(65% 0.11 300),
+		oklch(65% 0.11 330),
+		oklch(65% 0.11   0));
 	background-size: 5000px 5000px;
 	height: 100vh;
 	position: fixed;
@@ -42,7 +68,7 @@ body { color: #FFFE; font-weight: 400; font-size: 1.2em; line-height: 1.3; text-
 }
 
 /* common */
-a:link, a:visited { color: #FFFE; }
+a:link, a:visited { color: var(--main) }
 a:hover { text-decoration: none; }
 a strong { font-weight: 900; }
 
@@ -67,4 +93,4 @@ h1 #org { font-size: .45em; position: relative; bottom: .5em; left: -.5em; z-ind
 /* content */
 .notice { font-style: italic; margin-bottom: 1em; }
 .item::after { content: "–"; padding: 0 .5em; }
-.category { font-weight: 900; margin-top: 1em; padding: 0px; text-shadow: .1em .1em #0003; }
+.category { font-weight: 900; margin-top: 1em; padding: 0px; text-shadow: .1em .1em var(--shadow); }
