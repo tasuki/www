@@ -1,5 +1,5 @@
 # tasuki website
 
-Shouldn't need PHP but I can't be bothered to get rid of it :shrug:
+It don't need PHP! Any web server will do! Eg `npm install serve`. Or whatever...
 
-	php -S localhost:8000
+	serve -p 8000 --single
